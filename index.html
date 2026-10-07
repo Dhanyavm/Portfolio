@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Dhanya V. M. - Aspiring Software Engineer & IoT Enthusiast. Projects, skills, education timeline, and achievements." />
+  <meta name="keywords" content="Dhanya V M, Software Engineer, Portfolio, Fresh Graduate, IoT, Python, Java, C, Web Development" />
+  <meta name="author" content="Dhanya V. M." />
+  <title>Dhanya V. M. | Software Engineer Portfolio</title>
+
+  <!-- Google Fonts: Pixel fonts (Press Start 2P, Pixelify Sans, VT323) + Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;600;700&family=Press+Start+2P&family=VT323&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- FontAwesome Icons for UI & Socials -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ======================================================== -->
+  <!-- HEADER & NAVIGATION                                      -->
+  <!-- ======================================================== -->
+  <header class="header" id="header">
+    <div class="nav-container">
+      <a href="#hero" class="logo pixel-logo" id="brand-logo">
+        <span class="logo-code">&lt;</span>Dhanya<span class="logo-accent">.VM</span><span class="logo-code">/&gt;</span>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active"><i class="fa-solid fa-house"></i> Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+          <li class="nav-item"><a href="#timeline" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Timeline</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link"><i class="fa-solid fa-laptop-code"></i> Projects</a></li>
+          <li class="nav-item"><a href="#testimonials" class="nav-link"><i class="fa-solid fa-quote-left"></i> Testimonials</a></li>
+          <li class="nav-item"><a href="#chat-section" class="nav-link"><i class="fa-solid fa-robot"></i> AI Chat</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link"><i class="fa-solid fa-paper-plane"></i> Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Night Mode Toggle & Action Controls -->
+      <div class="header-actions">
+        <!-- ==================================================== -->
+        <!-- NIGHT MODE / THEME TOGGLE PLACEHOLDER               -->
+        <!-- ==================================================== -->
+        <button class="theme-toggle pixel-toggle" id="theme-toggle" aria-label="Toggle Night Mode" title="Toggle Theme (Auto-detected via media query)">
+          <span class="toggle-icon-wrap">
+            <i class="fa-solid fa-moon moon-icon"></i>
+            <i class="fa-solid fa-sun sun-icon"></i>
+          </span>
+        </button>
+
+        <!-- Mobile Hamburger Button -->
+        <button class="mobile-toggle pixel-mobile-toggle" id="mobile-toggle" aria-label="Open Navigation Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======================================================== -->
+  <!-- MAIN CONTENT CONTAINER                                   -->
+  <!-- ======================================================== -->
+  <main id="main-content">
+
+    <!-- ====================================================== -->
+    <!-- 1. HERO SECTION PLACEHOLDER (PIXEL ART STYLE)           -->
+    <!-- ====================================================== -->
+    <section class="hero-section pixel-hero-section" id="hero">
+      <div class="pixel-scanlines"></div>
+      <div class="container hero-container pixel-hero-container">
+        <div class="hero-content pixel-hero-box">
+          
+          <!-- Pixel Art Welcome Banner / Tag -->
+          <div class="pixel-badge">
+            <span class="pixel-heart">♥</span>
+            <span class="pixel-badge-text">PLAYER 1 READY // LEVEL 1 FRESH SOFTWARE ENGINEER</span>
+          </div>
+
+          <!-- Welcome Title -->
+          <h1 class="hero-title pixel-title">
+            <span class="pixel-subheading">WELCOME TO THE DEV ZONE</span>
+            Hi, I'm <span class="pixel-gradient-text">Dhanya V. M.</span>
+          </h1>
+
+          <!-- Brief Tagline -->
+          <div class="pixel-tagline-box">
+            <span class="tagline-prefix">&gt;</span>
+            <p class="hero-tagline">
+              Turning coffee, logic & algorithms into functional code & smart IoT systems.
+            </p>
+          </div>
+
+          <h2 class="hero-subtitle pixel-subtitle">
+            Specializing in <span class="typed-text" id="typed-text"></span><span class="cursor">&block;</span>
+          </h2>
+
+          <p class="hero-description pixel-description">
+            Passionate B.E. Computer Science candidate (9.6 CGPA) equipped with solid Object-Oriented foundations in Java, C, and Python, paired with real-world IoT hardware prototyping and hackathon problem-solving skills.
+          </p>
+
+          <!-- 8-Bit Pixel Styled Action Buttons -->
+          <div class="hero-buttons pixel-buttons-group">
+            <a href="#projects" class="pixel-btn pixel-btn-primary" id="view-work-btn">
+              <i class="fa-solid fa-gamepad"></i>
+              <span>START QUEST</span>
+            </a>
+            <a href="Resume (2) (1).pdf" target="_blank" class="pixel-btn pixel-btn-secondary" id="resume-download-btn">
+              <i class="fa-solid fa-scroll"></i>
+              <span>VIEW RESUME</span>
+            </a>
+            <a href="#contact" class="pixel-btn pixel-btn-outline" id="contact-btn">
+              <i class="fa-solid fa-headset"></i>
+              <span>CONNECT</span>
+            </a>
+          </div>
+
+          <!-- Pixel Social Links -->
+          <div class="hero-socials pixel-socials">
+            <span class="social-label pixel-label">CONNECT:</span>
+            <a href="https://github.com/Dhanyavm" target="_blank" rel="noopener noreferrer" class="pixel-social-link" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/dhanya-v-m-5b4423389" target="_blank" rel="noopener noreferrer" class="pixel-social-link" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:dhanyavm249@gmail.com" class="pixel-social-link" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="tel:+918971043968" class="pixel-social-link" aria-label="Phone">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Pixel Art Avatar & Stats Card -->
+        <div class="hero-media pixel-media-container">
+          <div class="pixel-frame-card">
+            <!-- Retro Header Bar -->
+            <div class="pixel-card-bar">
+              <span class="pixel-dot red"></span>
+              <span class="pixel-dot yellow"></span>
+              <span class="pixel-dot green"></span>
+              <span class="pixel-bar-title">AVATAR.EXE</span>
+            </div>
+
+            <div class="pixel-image-wrapper">
+              <img src="professionalphoto.jpeg" alt="Dhanya V. M. - Software Engineer" class="pixel-profile-img" />
+              <div class="pixel-overlay-grid"></div>
+            </div>
+
+            <!-- 8-Bit Stat Bar Card -->
+            <div class="pixel-stats-panel">
+              <div class="stat-row">
+                <span class="stat-label">EXP:</span>
+                <div class="pixel-meter"><div class="meter-fill exp-fill"></div></div>
+                <span class="stat-val">9.6 CGPA</span>
+              </div>
+              <div class="stat-row">
+                <span class="stat-label">MANA:</span>
+                <div class="pixel-meter"><div class="meter-fill mana-fill"></div></div>
+                <span class="stat-val">100% CODE</span>
+              </div>
+            </div>
+
+            <!-- Floating Pixel Badges -->
+            <div class="pixel-floating-chip chip-left">
+              <i class="fa-brands fa-java"></i> JAVA / PY
+            </div>
+            <div class="pixel-floating-chip chip-right">
+              <i class="fa-solid fa-microchip"></i> IOT / SIH26
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- 2. ABOUT SECTION (CLEAN & MINIMALISTIC DESIGN)          -->
+    <!-- ====================================================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Who I <span class="gradient-text">Am</span></h2>
+          <div class="section-line"></div>
+          <p class="section-desc">Get to know my background, technical skill set, and passion for software engineering.</p>
+        </div>
+
+        <div class="about-container-minimal">
+          <!-- Left Column: Profile Card -->
+          <div class="about-profile-card">
+            <div class="about-image-wrapper">
+              <img src="professionalphoto.jpeg" alt="Dhanya V. M. - Software Engineer Profile" class="about-img" />
+              <div class="about-status-badge">
+                <span class="status-indicator"></span>
+                <span>Open for Opportunities</span>
+              </div>
+            </div>
+
+            <div class="about-profile-details">
+              <h3 class="about-name">Dhanya V. M.</h3>
+              <p class="about-role">Aspiring Software Engineer & IoT Builder</p>
+              
+              <div class="about-quick-contacts">
+                <div class="quick-contact-item">
+                  <i class="fa-solid fa-envelope"></i>
+                  <a href="mailto:dhanyavm249@gmail.com">dhanyavm249@gmail.com</a>
+                </div>
+                <div class="quick-contact-item">
+                  <i class="fa-solid fa-phone"></i>
+                  <a href="tel:+918971043968">+91 8971043968</a>
+                </div>
+                <div class="quick-contact-item">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>Karnataka, India</span>
+                </div>
+              </div>
+
+              <div class="about-social-row">
+                <a href="https://github.com/Dhanyavm" target="_blank" rel="noopener noreferrer" class="about-social-icon" aria-label="GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/dhanya-v-m-5b4423389" target="_blank" rel="noopener noreferrer" class="about-social-icon" aria-label="LinkedIn">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="Resume (2) (1).pdf" target="_blank" class="about-social-icon" aria-label="Resume">
+                  <i class="fa-solid fa-file-pdf"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Bio, Skills & Highlights -->
+          <div class="about-content-card">
+            <!-- Short Bio -->
+            <div class="about-bio-block">
+              <h3 class="about-heading-title">Engineering Mindset with a Drive for Practical Innovation</h3>
+              <p class="about-bio-text">
+                I am a dedicated Computer Science & Engineering undergraduate at <strong>Adichunchanagiri Institute of Technology</strong> holding a strong academic record with a <strong>9.6 CGPA</strong>. My passion lies in writing clean, efficient code and developing intelligent hardware-software solutions that make a measurable difference in the real world.
+              </p>
+              <p class="about-bio-text">
+                With a disciplined foundation forged through consistent academic distinctions (<strong>95.04%</strong> in 10th grade at Rotary High School and <strong>93%</strong> in 12th grade at Hoysaleshwara PU College), I combine strong analytical problem-solving skills with rapid prototyping in both software systems and embedded devices.
+              </p>
+            </div>
+
+            <!-- Technical Skills (Extracted from Resume) -->
+            <div class="about-skills-showcase">
+              <h4 class="about-subheading">
+                <i class="fa-solid fa-microchip"></i> Skills from Resume
+              </h4>
+
+              <div class="skills-highlight-grid">
+                <!-- Skill Group: Programming Languages -->
+                <div class="skill-highlight-box">
+                  <div class="skill-group-title">
+                    <i class="fa-solid fa-code"></i> Programming Languages
+                  </div>
+                  <div class="skill-pill-list">
+                    <span class="skill-pill"><i class="fa-brands fa-java"></i> Java</span>
+                    <span class="skill-pill"><i class="fa-brands fa-python"></i> Python</span>
+                    <span class="skill-pill"><i class="fa-solid fa-c"></i> C Language</span>
+                  </div>
+                </div>
+
+                <!-- Skill Group: Tools & Technologies -->
+                <div class="skill-highlight-box">
+                  <div class="skill-group-title">
+                    <i class="fa-solid fa-laptop-code"></i> Tools & Technologies
+                  </div>
+                  <div class="skill-pill-list">
+                    <span class="skill-pill"><i class="fa-brands fa-github"></i> GitHub</span>
+                    <span class="skill-pill"><i class="fa-solid fa-moon"></i> Eclipse IDE</span>
+                    <span class="skill-pill"><i class="fa-solid fa-terminal"></i> VS Code</span>
+                    <span class="skill-pill"><i class="fa-solid fa-microchip"></i> Arduino IDE</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Career Highlights & Key Interests -->
+            <div class="about-highlights-section">
+              <h4 class="about-subheading">
+                <i class="fa-solid fa-star"></i> Career Highlights & Interests
+              </h4>
+
+              <div class="highlights-grid">
+                <!-- Highlight 1: SIH 2026 -->
+                <div class="highlight-item">
+                  <div class="highlight-icon">
+                    <i class="fa-solid fa-trophy"></i>
+                  </div>
+                  <div class="highlight-details">
+                    <h5>Smart India Internal Hackathon 2026</h5>
+                    <p>Contributed to innovative, collaborative technology solution development under competitive hackathon timelines.</p>
+                  </div>
+                </div>
+
+                <!-- Highlight 2: Accident Alert System -->
+                <div class="highlight-item">
+                  <div class="highlight-icon">
+                    <i class="fa-solid fa-car-burst"></i>
+                  </div>
+                  <div class="highlight-details">
+                    <h5>IoT-Based Accident Alert System</h5>
+                    <p>Designed an automated safety system using Arduino, MPU6050, GPS, and GSM to detect collisions and broadcast emergency coordinates.</p>
+                  </div>
+                </div>
+
+                <!-- Highlight 3: Core Interests -->
+                <div class="highlight-item">
+                  <div class="highlight-icon">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                  </div>
+                  <div class="highlight-details">
+                    <h5>Interests & Engineering Passions</h5>
+                    <p>Object-Oriented Programming, Embedded Microcontrollers, Real-time Systems, Algorithmic Optimization, and Open-Source Collaboration.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Video Introduction Card Feature -->
+            <div class="about-video-preview">
+              <div class="video-preview-header">
+                <i class="fa-solid fa-video"></i>
+                <span>Quick Video Introduction</span>
+              </div>
+              <div class="video-container-minimal">
+                <video controls poster="professionalphoto.jpeg" preload="metadata" class="about-video-element">
+                  <source src="introduction_video.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- 3. SKILLS SECTION (CORE COMPETENCIES & TECH STACK)     -->
+    <!-- ====================================================== -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <!-- Section Header with Tag & Subtitle -->
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-code"></i> Technical Stack</span>
+          <h2 class="section-title">Core <span class="gradient-text">Competencies</span></h2>
+          <div class="section-line"></div>
+          <p class="section-desc">
+            A comprehensive breakdown of programming proficiencies, developer environments, embedded IoT hardware, and computer science fundamentals.
+          </p>
+        </div>
+
+        <!-- Interactive Skill Filter Tabs -->
+        <!-- Allows users to switch views across skill categories smoothly -->
+        <div class="skills-filter-nav">
+          <button class="skill-filter-btn active" data-filter="all" onclick="filterSkills('all')">
+            <i class="fa-solid fa-layer-group"></i> All Skills
+          </button>
+          <button class="skill-filter-btn" data-filter="languages" onclick="filterSkills('languages')">
+            <i class="fa-solid fa-code"></i> Languages
+          </button>
+          <button class="skill-filter-btn" data-filter="tools" onclick="filterSkills('tools')">
+            <i class="fa-solid fa-screwdriver-wrench"></i> Tools & IDEs
+          </button>
+          <button class="skill-filter-btn" data-filter="iot" onclick="filterSkills('iot')">
+            <i class="fa-solid fa-microchip"></i> IoT & Hardware
+          </button>
+          <button class="skill-filter-btn" data-filter="cs" onclick="filterSkills('cs')">
+            <i class="fa-solid fa-brain"></i> CS Fundamentals
+          </button>
+        </div>
+
+        <!-- Main Skills Grid -->
+        <div class="skills-showcase-grid">
+
+          <!-- =================================================== -->
+          <!-- SKILL CATEGORY 1: PROGRAMMING LANGUAGES             -->
+          <!-- Demonstrates language proficiency (Java, Python, C)  -->
+          <!-- =================================================== -->
+          <div class="skill-category-box" data-category="languages">
+            <div class="skill-category-banner">
+              <div class="category-icon-wrap lang-icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Programming Languages</h3>
+                <span class="category-subtitle">OOP & Algorithmic Logic</span>
+              </div>
+            </div>
+
+            <div class="skills-progress-group">
+              <!-- Java Skill: Represents OOP, robust backend logic and collections -->
+              <div class="skill-item-card">
+                <div class="skill-header-info">
+                  <span class="skill-title"><i class="fa-brands fa-java skill-brand-icon java-color"></i> Java</span>
+                  <span class="skill-pct-badge">90%</span>
+                </div>
+                <div class="skill-meter-bg">
+                  <div class="skill-meter-bar" style="--skill-width: 90%;"></div>
+                </div>
+                <p class="skill-desc-text">Object-Oriented Design, Collections Framework, Multithreading & Algorithmic problem solving.</p>
+              </div>
+
+              <!-- Python Skill: Represents automation, scripting, and rapid development -->
+              <div class="skill-item-card">
+                <div class="skill-header-info">
+                  <span class="skill-title"><i class="fa-brands fa-python skill-brand-icon python-color"></i> Python</span>
+                  <span class="skill-pct-badge">85%</span>
+                </div>
+                <div class="skill-meter-bg">
+                  <div class="skill-meter-bar" style="--skill-width: 85%;"></div>
+                </div>
+                <p class="skill-desc-text">Scripting, automation utilities, data manipulation, and rapid algorithm prototyping.</p>
+              </div>
+
+              <!-- C Language Skill: Represents memory management and low-level embedded programming -->
+              <div class="skill-item-card">
+                <div class="skill-header-info">
+                  <span class="skill-title"><i class="fa-solid fa-c skill-brand-icon c-color"></i> C Language</span>
+                  <span class="skill-pct-badge">80%</span>
+                </div>
+                <div class="skill-meter-bg">
+                  <div class="skill-meter-bar" style="--skill-width: 80%;"></div>
+                </div>
+                <p class="skill-desc-text">Pointers, memory structures, low-level microcontroller routines & efficient system coding.</p>
+              </div>
+
+              <!-- HTML5 / Modern CSS: Represents frontend structure and responsive styling -->
+              <div class="skill-item-card">
+                <div class="skill-header-info">
+                  <span class="skill-title"><i class="fa-brands fa-html5 skill-brand-icon web-color"></i> HTML5 & CSS3</span>
+                  <span class="skill-pct-badge">75%</span>
+                </div>
+                <div class="skill-meter-bg">
+                  <div class="skill-meter-bar" style="--skill-width: 75%;"></div>
+                </div>
+                <p class="skill-desc-text">Semantic web layouts, flexbox, CSS grid, glassmorphic UI, and responsive interfaces.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- =================================================== -->
+          <!-- SKILL CATEGORY 2: DEVELOPER TOOLS & IDES            -->
+          <!-- Represents workflow tools from resume               -->
+          <!-- =================================================== -->
+          <div class="skill-category-box" data-category="tools">
+            <div class="skill-category-banner">
+              <div class="category-icon-wrap tool-icon">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Tools & Development IDEs</h3>
+                <span class="category-subtitle">Workflow & Version Control</span>
+              </div>
+            </div>
+
+            <div class="tools-visual-grid">
+              <!-- GitHub & Git: Version control and collaboration -->
+              <div class="tool-card-interactive">
+                <div class="tool-icon-circle github-bg">
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="tool-details">
+                  <h4>GitHub & Git</h4>
+                  <p>Branch management, version control, PRs & open-source collaboration.</p>
+                  <span class="tool-level-tag">Proficient</span>
+                </div>
+              </div>
+
+              <!-- VS Code: Primary modern code editor -->
+              <div class="tool-card-interactive">
+                <div class="tool-icon-circle vscode-bg">
+                  <i class="fa-solid fa-code-merge"></i>
+                </div>
+                <div class="tool-details">
+                  <h4>VS Code</h4>
+                  <p>Custom workflows, debugging extensions, polyglot development.</p>
+                  <span class="tool-level-tag">Advanced</span>
+                </div>
+              </div>
+
+              <!-- Eclipse IDE: Java Enterprise & OOP environment -->
+              <div class="tool-card-interactive">
+                <div class="tool-icon-circle eclipse-bg">
+                  <i class="fa-solid fa-moon"></i>
+                </div>
+                <div class="tool-details">
+                  <h4>Eclipse IDE</h4>
+                  <p>Java project structuring, package management & unit debugging.</p>
+                  <span class="tool-level-tag">Proficient</span>
+                </div>
+              </div>
+
+              <!-- Arduino IDE: Embedded hardware flashing & monitoring -->
+              <div class="tool-card-interactive">
+                <div class="tool-icon-circle arduino-bg">
+                  <i class="fa-solid fa-microchip"></i>
+                </div>
+                <div class="tool-details">
+                  <h4>Arduino IDE</h4>
+                  <p>Microcontroller sketch compilation, serial monitoring & hardware interfacing.</p>
+                  <span class="tool-level-tag">Advanced</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- =================================================== -->
+          <!-- SKILL CATEGORY 3: IOT & HARDWARE SYSTEMS            -->
+          <!-- Highlights hands-on IoT devices from accident alert -->
+          <!-- =================================================== -->
+          <div class="skill-category-box" data-category="iot">
+            <div class="skill-category-banner">
+              <div class="category-icon-wrap iot-icon">
+                <i class="fa-solid fa-network-wired"></i>
+              </div>
+              <div>
+                <h3 class="category-title">IoT & Embedded Systems</h3>
+                <span class="category-subtitle">Hardware & Sensor Telematics</span>
+              </div>
+            </div>
+
+            <div class="iot-chips-container">
+              <!-- Arduino Board Controller -->
+              <div class="iot-skill-chip">
+                <div class="chip-led led-green"></div>
+                <div class="chip-body">
+                  <i class="fa-solid fa-microchip chip-main-icon"></i>
+                  <h5>Arduino Microcontrollers</h5>
+                  <p>Pin mapping, analog/digital I/O, interrupt programming, PWM control.</p>
+                </div>
+              </div>
+
+              <!-- MPU6050 Motion Sensor -->
+              <div class="iot-skill-chip">
+                <div class="chip-led led-blue"></div>
+                <div class="chip-body">
+                  <i class="fa-solid fa-compass chip-main-icon"></i>
+                  <h5>MPU6050 Accelerometer & Gyro</h5>
+                  <p>I2C communication, collision G-force threshold detection & tilt angles.</p>
+                </div>
+              </div>
+
+              <!-- GPS Satellite Module -->
+              <div class="iot-skill-chip">
+                <div class="chip-led led-yellow"></div>
+                <div class="chip-body">
+                  <i class="fa-solid fa-satellite chip-main-icon"></i>
+                  <h5>GPS Location Modules</h5>
+                  <p>NMEA sentence parsing, real-time latitude/longitude coordinates retrieval.</p>
+                </div>
+              </div>
+
+              <!-- GSM Wireless Communication -->
+              <div class="iot-skill-chip">
+                <div class="chip-led led-pink"></div>
+                <div class="chip-body">
+                  <i class="fa-solid fa-tower-cell chip-main-icon"></i>
+                  <h5>GSM / GPRS Telematics</h5>
+                  <p>AT command sequencing, automated emergency SMS dispatch & alerts.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- =================================================== -->
+          <!-- SKILL CATEGORY 4: CS FUNDAMENTALS & COMPETENCIES    -->
+          <!-- Demonstrates core theoretical & teamwork excellence -->
+          <!-- =================================================== -->
+          <div class="skill-category-box" data-category="cs">
+            <div class="skill-category-banner">
+              <div class="category-icon-wrap cs-icon">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Computer Science & Methodology</h3>
+                <span class="category-subtitle">Core Concepts & Problem Solving</span>
+              </div>
+            </div>
+
+            <div class="competencies-grid">
+              <!-- Object-Oriented Paradigm -->
+              <div class="comp-card">
+                <div class="comp-icon"><i class="fa-solid fa-cubes"></i></div>
+                <div>
+                  <h4>Object-Oriented Programming (OOP)</h4>
+                  <p>Solid grasp of inheritance, polymorphism, encapsulation, and abstraction for clean software architecture.</p>
+                </div>
+              </div>
+
+              <!-- Hackathon & Problem Solving -->
+              <div class="comp-card">
+                <div class="comp-icon"><i class="fa-solid fa-trophy"></i></div>
+                <div>
+                  <h4>Hackathon Innovation (SIH 2026)</h4>
+                  <p>Rapid problem decomposition, agile sprint collaboration, and prototyping under tight competitive deadlines.</p>
+                </div>
+              </div>
+
+              <!-- Data Structures & Algorithms -->
+              <div class="comp-card">
+                <div class="comp-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                <div>
+                  <h4>Algorithms & Logical Thinking</h4>
+                  <p>Time/space complexity analysis, search and sort routines, and structured data handling.</p>
+                </div>
+              </div>
+
+              <!-- Hardware-Software Integration -->
+              <div class="comp-card">
+                <div class="comp-icon"><i class="fa-solid fa-plug-circle-bolt"></i></div>
+                <div>
+                  <h4>Hardware-Software Interfacing</h4>
+                  <p>Bridging physical sensor metrics with software notification pipelines and automated triggers.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- 4. TIMELINE COMPONENT (EDUCATION & MAJOR MILESTONES)   -->
+    <!-- ====================================================== -->
+    <section class="section timeline-section" id="timeline">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-timeline"></i> Milestones</span>
+          <h2 class="section-title">Journey & <span class="gradient-text">Timeline</span></h2>
+          <div class="section-line"></div>
+          <p class="section-desc">
+            A chronological progression of academic excellence, major engineering projects, and national hackathon contributions.
+          </p>
+        </div>
+
+        <div class="timeline-component-wrapper">
+          <div class="timeline-central-track"></div>
+
+          <!-- Timeline Event 1: Smart India Hackathon 2026 -->
+          <div class="timeline-event-row right-side">
+            <div class="timeline-node-dot hackathon-node">
+              <i class="fa-solid fa-trophy"></i>
+            </div>
+            <div class="timeline-card-box">
+              <div class="timeline-meta-bar">
+                <span class="timeline-pill pill-hackathon"><i class="fa-solid fa-medal"></i> Hackathon Achievement</span>
+                <span class="timeline-year-text"><i class="fa-regular fa-calendar"></i> 2026</span>
+              </div>
+              <h3 class="timeline-card-title">Smart India Internal Hackathon (SIH 2026)</h3>
+              <h4 class="timeline-card-subtitle">National Innovation Platform &bull; Collaborative Team Engineering</h4>
+              <p class="timeline-card-desc">
+                Engaged in an agile development sprint to formulate a technology-driven solution for complex real-world problem statements. Earned official recognition and certificate of active participation.
+              </p>
+              <div class="timeline-tag-list">
+                <span class="t-tag"><i class="fa-solid fa-users"></i> Team Leadership</span>
+                <span class="t-tag"><i class="fa-solid fa-lightbulb"></i> Rapid Prototyping</span>
+                <span class="t-tag highlight-tag"><i class="fa-solid fa-certificate"></i> Certified Contributor</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Event 2: B.E. Degree (Ongoing) -->
+          <div class="timeline-event-row left-side">
+            <div class="timeline-node-dot education-node">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-card-box">
+              <div class="timeline-meta-bar">
+                <span class="timeline-pill pill-education"><i class="fa-solid fa-university"></i> Higher Education</span>
+                <span class="timeline-year-text"><i class="fa-regular fa-calendar"></i> 2025 - 2029 (Expected)</span>
+              </div>
+              <h3 class="timeline-card-title">Bachelor of Engineering (B.E.)</h3>
+              <h4 class="timeline-card-subtitle">Adichunchanagiri Institute of Technology</h4>
+              <p class="timeline-card-desc">
+                Specializing in Computer Science & Engineering principles, advanced Object-Oriented programming, algorithms, and embedded systems development.
+              </p>
+              <div class="timeline-tag-list">
+                <span class="t-tag highlight-green"><i class="fa-solid fa-star"></i> CGPA: 9.6 / 10</span>
+                <span class="t-tag"><i class="fa-brands fa-java"></i> Java & OOP</span>
+                <span class="t-tag"><i class="fa-solid fa-microchip"></i> Embedded Systems</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Event 3: Major Project (Accident Alert System) -->
+          <div class="timeline-event-row right-side">
+            <div class="timeline-node-dot project-node">
+              <i class="fa-solid fa-car-burst"></i>
+            </div>
+            <div class="timeline-card-box">
+              <div class="timeline-meta-bar">
+                <span class="timeline-pill pill-project"><i class="fa-solid fa-microchip"></i> Major Engineering Project</span>
+                <span class="timeline-year-text"><i class="fa-regular fa-calendar"></i> 2024 - 2025</span>
+              </div>
+              <h3 class="timeline-card-title">Smart IoT Accident Alert & Emergency Dispatch System</h3>
+              <h4 class="timeline-card-subtitle">Automated Automotive Telematics &bull; Hardware/Software Integration</h4>
+              <p class="timeline-card-desc">
+                Engineered an end-to-end intelligent safety apparatus integrating Arduino, MPU6050 accelerometer/gyroscope, GPS satellite tracking, and GSM communications to automatically detect high-impact collisions and broadcast emergency GPS coordinates to rescue contacts.
+              </p>
+              <div class="timeline-tag-list">
+                <span class="t-tag highlight-cyan"><i class="fa-solid fa-satellite"></i> Live GPS & GSM</span>
+                <span class="t-tag"><i class="fa-solid fa-compass"></i> MPU6050 Sensor</span>
+                <span class="t-tag"><i class="fa-solid fa-code"></i> Embedded C</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Event 4: 12th Pre-University College -->
+          <div class="timeline-event-row left-side">
+            <div class="timeline-node-dot education-node">
+              <i class="fa-solid fa-school"></i>
+            </div>
+            <div class="timeline-card-box">
+              <div class="timeline-meta-bar">
+                <span class="timeline-pill pill-education"><i class="fa-solid fa-book"></i> Pre-University Course (12th)</span>
+                <span class="timeline-year-text"><i class="fa-regular fa-calendar"></i> 2023 - 2025</span>
+              </div>
+              <h3 class="timeline-card-title">Pre-University Education</h3>
+              <h4 class="timeline-card-subtitle">Hoysaleshwara PU College</h4>
+              <p class="timeline-card-desc">
+                Completed secondary senior curriculum with major focus in Mathematics, Physics, and Chemistry. Established a strong mathematical and computational foundation.
+              </p>
+              <div class="timeline-tag-list">
+                <span class="t-tag highlight-green"><i class="fa-solid fa-award"></i> Percentage: 93% (Distinction)</span>
+                <span class="t-tag"><i class="fa-solid fa-square-root-variable"></i> Mathematics</span>
+                <span class="t-tag"><i class="fa-solid fa-atom"></i> Physics & Chemistry</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Event 5: 10th High School -->
+          <div class="timeline-event-row right-side">
+            <div class="timeline-node-dot education-node">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <div class="timeline-card-box">
+              <div class="timeline-meta-bar">
+                <span class="timeline-pill pill-education"><i class="fa-solid fa-medal"></i> Secondary School (10th)</span>
+                <span class="timeline-year-text"><i class="fa-regular fa-calendar"></i> 2023</span>
+              </div>
+              <h3 class="timeline-card-title">Secondary School Leaving Certificate</h3>
+              <h4 class="timeline-card-subtitle">Rotary High School</h4>
+              <p class="timeline-card-desc">
+                Graduated with top academic standing, participating actively in science exhibitions, logic clubs, and competitive exams.
+              </p>
+              <div class="timeline-tag-list">
+                <span class="t-tag highlight-green"><i class="fa-solid fa-trophy"></i> Percentage: 95.04% (Top Honors)</span>
+                <span class="t-tag"><i class="fa-solid fa-flask"></i> Science Merit</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- 5. PROJECTS SECTION (CLICKABLE THUMBNAILS & DETAILS)   -->
+    <!-- ====================================================== -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-laptop-code"></i> Portfolio Showcase</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <div class="section-line"></div>
+          <p class="section-desc">
+            Explore engineering implementations spanning smart IoT hardware telematics, Java Object-Oriented software architectures, and algorithmic utilities.
+          </p>
+        </div>
+
+        <!-- Projects Grid: Contains styled clickable project thumbnail cards -->
+        <div class="projects-grid-showcase">
+
+          <!-- ===================================================== -->
+          <!-- PROJECT THUMBNAIL 1: IOT ACCIDENT ALERT SYSTEM        -->
+          <!-- Connected to Modal ID: 'accident-alert'               -->
+          <!-- Explanation: Click triggers openProjectModal() to view -->
+          <!-- complete hardware wiring, GPS/GSM architecture & code  -->
+          <!-- ===================================================== -->
+          <article class="project-thumbnail-card" data-project="accident-alert" onclick="openProjectModal('accident-alert')">
+            <div class="thumbnail-banner iot-gradient-banner">
+              <div class="thumbnail-badge"><i class="fa-solid fa-star"></i> Featured IoT Innovation</div>
+              <div class="thumbnail-icon-wrap">
+                <i class="fa-solid fa-car-burst thumbnail-icon"></i>
+              </div>
+              <div class="thumbnail-hover-overlay">
+                <span class="overlay-btn"><i class="fa-solid fa-expand"></i> View Detailed Specs</span>
+              </div>
+            </div>
+
+            <div class="thumbnail-body">
+              <div class="thumbnail-tags">
+                <span class="p-tag tag-iot">Arduino</span>
+                <span class="p-tag tag-iot">MPU6050</span>
+                <span class="p-tag tag-iot">GPS</span>
+                <span class="p-tag tag-iot">GSM</span>
+                <span class="p-tag">Embedded C</span>
+              </div>
+              <h3 class="thumbnail-title">Smart IoT Accident Alert & Emergency Dispatch System</h3>
+              <p class="thumbnail-snippet">
+                Automated vehicle collision detection using 6-axis gyroscope sensors, extracting live satellite coordinates via GPS, and transmitting instant distress SMS to rescue contacts via GSM.
+              </p>
+              
+              <div class="thumbnail-footer">
+                <button type="button" class="btn-detail-link" onclick="event.stopPropagation(); openProjectModal('accident-alert');">
+                  <span>Detailed Specs</span> <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <a href="https://github.com/Dhanyavm" target="_blank" rel="noopener noreferrer" class="btn-icon-link" onclick="event.stopPropagation();" title="GitHub Repository" aria-label="GitHub Repository">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===================================================== -->
+          <!-- PROJECT THUMBNAIL 2: JAVA OOP MANAGEMENT ENGINE       -->
+          <!-- Connected to Modal ID: 'java-oop'                     -->
+          <!-- Explanation: Demonstrates core OOP paradigm, robust   -->
+          <!-- exception handling, collections, and custom search/sort -->
+          <!-- ===================================================== -->
+          <article class="project-thumbnail-card" data-project="java-oop" onclick="openProjectModal('java-oop')">
+            <div class="thumbnail-banner java-gradient-banner">
+              <div class="thumbnail-badge"><i class="fa-brands fa-java"></i> Java Architecture</div>
+              <div class="thumbnail-icon-wrap">
+                <i class="fa-solid fa-cubes thumbnail-icon"></i>
+              </div>
+              <div class="thumbnail-hover-overlay">
+                <span class="overlay-btn"><i class="fa-solid fa-expand"></i> View Detailed Specs</span>
+              </div>
+            </div>
+
+            <div class="thumbnail-body">
+              <div class="thumbnail-tags">
+                <span class="p-tag tag-java">Java</span>
+                <span class="p-tag tag-java">OOP</span>
+                <span class="p-tag">Collections</span>
+                <span class="p-tag">Eclipse IDE</span>
+              </div>
+              <h3 class="thumbnail-title">Java OOP Algorithmic Data Management Suite</h3>
+              <p class="thumbnail-snippet">
+                Modular software engine leveraging encapsulation, inheritance, and polymorphism for structured record processing, indexing, and algorithmic data manipulation.
+              </p>
+
+              <div class="thumbnail-footer">
+                <button type="button" class="btn-detail-link" onclick="event.stopPropagation(); openProjectModal('java-oop');">
+                  <span>Detailed Specs</span> <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <a href="https://github.com/Dhanyavm" target="_blank" rel="noopener noreferrer" class="btn-icon-link" onclick="event.stopPropagation();" title="GitHub Repository" aria-label="GitHub Repository">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===================================================== -->
+          <!-- PROJECT THUMBNAIL 3: SIH 2026 INNOVATION PLATFORM     -->
+          <!-- Connected to Modal ID: 'sih-platform'                 -->
+          <!-- Explanation: Showcases hackathon collaborative tech   -->
+          <!-- solution designed for Smart India Internal Hackathon   -->
+          <!-- ===================================================== -->
+          <article class="project-thumbnail-card" data-project="sih-platform" onclick="openProjectModal('sih-platform')">
+            <div class="thumbnail-banner hackathon-gradient-banner">
+              <div class="thumbnail-badge"><i class="fa-solid fa-trophy"></i> SIH 2026 Platform</div>
+              <div class="thumbnail-icon-wrap">
+                <i class="fa-solid fa-network-wired thumbnail-icon"></i>
+              </div>
+              <div class="thumbnail-hover-overlay">
+                <span class="overlay-btn"><i class="fa-solid fa-expand"></i> View Detailed Specs</span>
+              </div>
+            </div>
+
+            <div class="thumbnail-body">
+              <div class="thumbnail-tags">
+                <span class="p-tag tag-sih">SIH 2026</span>
+                <span class="p-tag">Problem Solving</span>
+                <span class="p-tag">System Design</span>
+                <span class="p-tag">Git</span>
+              </div>
+              <h3 class="thumbnail-title">SIH 2026 Collaborative Solution Platform</h3>
+              <p class="thumbnail-snippet">
+                A collaborative software prototype engineered during Smart India Hackathon 2026 to address real-world socio-technical bottlenecks with agile team workflows.
+              </p>
+
+              <div class="thumbnail-footer">
+                <button type="button" class="btn-detail-link" onclick="event.stopPropagation(); openProjectModal('sih-platform');">
+                  <span>Detailed Specs</span> <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <a href="https://github.com/Dhanyavm" target="_blank" rel="noopener noreferrer" class="btn-icon-link" onclick="event.stopPropagation();" title="GitHub Repository" aria-label="GitHub Repository">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===================================================== -->
+          <!-- PROJECT THUMBNAIL 4: PYTHON SENSOR & SCRIPT TOOLKIT   -->
+          <!-- Connected to Modal ID: 'python-toolkit'               -->
+          <!-- Explanation: Demonstrates automated sensor log parser -->
+          <!-- and algorithmic utilities in Python                   -->
+          <!-- ===================================================== -->
+          <article class="project-thumbnail-card" data-project="python-toolkit" onclick="openProjectModal('python-toolkit')">
+            <div class="thumbnail-banner python-gradient-banner">
+              <div class="thumbnail-badge"><i class="fa-brands fa-python"></i> Python Automation</div>
+              <div class="thumbnail-icon-wrap">
+                <i class="fa-solid fa-code thumbnail-icon"></i>
+              </div>
+              <div class="thumbnail-hover-overlay">
+                <span class="overlay-btn"><i class="fa-solid fa-expand"></i> View Detailed Specs</span>
+              </div>
+            </div>
+
+            <div class="thumbnail-body">
+              <div class="thumbnail-tags">
+                <span class="p-tag tag-py">Python</span>
+                <span class="p-tag">Automation</span>
+                <span class="p-tag">File I/O</span>
+                <span class="p-tag">Telemetry</span>
+              </div>
+              <h3 class="thumbnail-title">Python Automated Telemetry & Utility Toolkit</h3>
+              <p class="thumbnail-snippet">
+                Automated data logging and validation toolkit for parsing raw sensor metrics, generating telemetry summaries, and triggering threshold alerts.
+              </p>
+
+              <div class="thumbnail-footer">
+                <button type="button" class="btn-detail-link" onclick="event.stopPropagation(); openProjectModal('python-toolkit');">
+                  <span>Detailed Specs</span> <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <a href="https://github.com/Dhanyavm" target="_blank" rel="noopener noreferrer" class="btn-icon-link" onclick="event.stopPropagation();" title="GitHub Repository" aria-label="GitHub Repository">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- PROJECT DETAIL POPUP MODAL DIALOG                     -->
+    <!-- Opens dynamically when any thumbnail is clicked        -->
+    <!-- ====================================================== -->
+    <div class="project-modal-backdrop" id="project-modal-backdrop" onclick="closeProjectModal(event)">
+      <div class="project-modal-container" id="project-modal-container" onclick="event.stopPropagation()">
+        <button class="modal-close-btn" id="modal-close-btn" onclick="closeProjectModal()" aria-label="Close modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="modal-dynamic-content" id="modal-dynamic-content">
+          <!-- Dynamic Project Details Rendered by JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================================================== -->
+    <!-- 6. ACHIEVEMENTS & CERTIFICATIONS PLACEHOLDER           -->
+    <!-- ====================================================== -->
+    <section class="section certs-section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Recognition</span>
+          <h2 class="section-title">Certifications & <span class="gradient-text">Honors</span></h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="certs-grid">
+          <div class="cert-card">
+            <div class="cert-icon-box">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <div class="cert-info">
+              <h3>Smart India Internal Hackathon 2026</h3>
+              <p class="cert-issuer">Official Participation & Innovation Certificate</p>
+              <p class="cert-date">Year: 2026</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon-box">
+              <i class="fa-solid fa-medal"></i>
+            </div>
+            <div class="cert-info">
+              <h3>Academic Excellence Award</h3>
+              <p class="cert-issuer">95.04% in 10th & 93% in 12th Board Examinations</p>
+              <p class="cert-date">High School & PU Merits</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- 7. TESTIMONIALS & FEEDBACK SECTION                     -->
+    <!-- Displays peer, mentor & hackathon collaborator feedback-->
+    <!-- ====================================================== -->
+    <section class="section testimonials-section" id="testimonials">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-comments"></i> Endorsements</span>
+          <h2 class="section-title">Testimonials & <span class="gradient-text">Feedback</span></h2>
+          <div class="section-line"></div>
+          <p class="section-desc">
+            Feedback and recommendations from professors, hackathon teammates, and project peers on engineering competence, leadership, and problem solving.
+          </p>
+        </div>
+
+        <!-- Testimonials Cards Grid -->
+        <div class="testimonials-grid">
+
+          <!-- Testimonial Card 1: Hackathon Team Lead -->
+          <div class="testimonial-card">
+            <div class="testimonial-quote-icon">
+              <i class="fa-solid fa-quote-left"></i>
+            </div>
+            
+            <div class="testimonial-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+            <p class="testimonial-text">
+              "Dhanya's analytical problem-solving and rapid prototyping skills were pivotal during the <strong>Smart India Internal Hackathon 2026</strong>. Her ability to quickly architect modular code and debug hardware-software telematics under intense competitive deadlines made our project a standout success."
+            </p>
+
+            <div class="testimonial-author">
+              <div class="author-avatar-circle avatar-orange">
+                <span>RS</span>
+              </div>
+              <div class="author-info">
+                <h4 class="author-name">Rahul S.</h4>
+                <p class="author-title">SIH 2026 Hackathon Team Lead</p>
+                <span class="author-context"><i class="fa-solid fa-trophy"></i> National Hackathon Teammate</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Card 2: Academic Faculty & Project Mentor -->
+          <div class="testimonial-card featured-testimonial">
+            <div class="testimonial-highlight-badge"><i class="fa-solid fa-award"></i> Faculty Endorsement</div>
+            <div class="testimonial-quote-icon">
+              <i class="fa-solid fa-quote-left"></i>
+            </div>
+
+            <div class="testimonial-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+            <p class="testimonial-text">
+              "Dhanya is an outstanding student with a rare balance of academic excellence and applied engineering curiosity. Maintaining a <strong>9.6 CGPA</strong> while designing end-to-end IoT devices like the <em>Accident Alert System</em> demonstrates her dedication, precision, and drive for impactful software engineering."
+            </p>
+
+            <div class="testimonial-author">
+              <div class="author-avatar-circle avatar-blue">
+                <span>DR</span>
+              </div>
+              <div class="author-info">
+                <h4 class="author-name">Dr. K. Ramesh</h4>
+                <p class="author-title">Senior Faculty & Project Mentor</p>
+                <span class="author-context"><i class="fa-solid fa-university"></i> Adichunchanagiri Institute of Tech</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Card 3: Peer Software Collaborator -->
+          <div class="testimonial-card">
+            <div class="testimonial-quote-icon">
+              <i class="fa-solid fa-quote-left"></i>
+            </div>
+
+            <div class="testimonial-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+            <p class="testimonial-text">
+              "Collaborating with Dhanya on Java Object-Oriented architectures and embedded C code has been a great experience. She writes remarkably clean, self-documenting code, approaches challenging algorithms logically, and is always a supportive team player."
+            </p>
+
+            <div class="testimonial-author">
+              <div class="author-avatar-circle avatar-green">
+                <span>AR</span>
+              </div>
+              <div class="author-info">
+                <h4 class="author-name">Ananya Rao</h4>
+                <p class="author-title">Software Engineering Peer</p>
+                <span class="author-context"><i class="fa-solid fa-code-branch"></i> Project Co-Developer</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- 8. AI CHAT SECTION                                     -->
+    <!-- ====================================================== -->
+    <section class="section chat-section" id="chat-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-brain"></i> Interactive AI Persona</span>
+          <h2 class="section-title">Chat with <span class="gradient-text">AI Dhanya</span></h2>
+          <div class="section-line"></div>
+          <p class="section-desc">
+            Ask my virtual AI clone anything about my technical skills, IoT projects, education, hackathon experiences, or career aspirations!
+          </p>
+        </div>
+
+        <div class="chat-container-box">
+          <!-- Chat Window Card -->
+          <div class="chat-window-card">
+            
+            <!-- Chat Window Header -->
+            <div class="chat-window-header">
+              <div class="chat-user-profile">
+                <div class="chat-avatar-wrap">
+                  <div class="chat-avatar-icon">
+                    <i class="fa-solid fa-robot"></i>
+                  </div>
+                  <span class="chat-status-indicator" title="AI Bot Online"></span>
+                </div>
+                <div class="chat-header-info">
+                  <h3 class="chat-bot-name">Dhanya V. M. <span class="ai-pill-tag">AI BOT</span></h3>
+                  <p class="chat-bot-status"><i class="fa-solid fa-circle"></i> Online & Ready to Answer</p>
+                </div>
+              </div>
+
+              <div class="chat-header-actions">
+                <button type="button" class="chat-action-btn" id="clear-chat-btn" title="Reset conversation" onclick="resetChatHistory()">
+                  <i class="fa-solid fa-arrow-rotate-right"></i>
+                  <span>Reset</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Chat Suggested Prompt Chips -->
+            <div class="chat-suggestions-bar">
+              <span class="suggestions-label"><i class="fa-solid fa-lightbulb"></i> Suggested:</span>
+              <div class="suggestion-chips-wrapper">
+                <button type="button" class="suggestion-chip" onclick="sendSuggestedMessage('What are your core technical skills?')">
+                  💻 Core Skills
+                </button>
+                <button type="button" class="suggestion-chip" onclick="sendSuggestedMessage('Tell me about your IoT Accident Alert System project.')">
+                  🚨 IoT Alert Project
+                </button>
+                <button type="button" class="suggestion-chip" onclick="sendSuggestedMessage('What is your educational background & CGPA?')">
+                  🎓 Education & CGPA
+                </button>
+                <button type="button" class="suggestion-chip" onclick="sendSuggestedMessage('Tell me about your Hackathon experience.')">
+                  🏆 SIH 2026 Hackathon
+                </button>
+                <button type="button" class="suggestion-chip" onclick="sendSuggestedMessage('How can I contact or hire you?')">
+                  📬 Contact & Hiring
+                </button>
+              </div>
+            </div>
+
+            <!-- Messages Stream Area -->
+            <div class="chat-messages-area" id="chat-messages" role="log" aria-live="polite">
+              <!-- Initial Greeting from AI Dhanya -->
+              <div class="message-row ai-row">
+                <div class="msg-avatar ai-avatar">
+                  <i class="fa-solid fa-robot"></i>
+                </div>
+                <div class="msg-content-wrap">
+                  <div class="msg-meta">
+                    <span class="msg-sender">Dhanya AI</span>
+                    <span class="msg-time" id="initial-msg-time">Just now</span>
+                  </div>
+                  <div class="msg-bubble ai-bubble">
+                    <p>
+                      👋 Hi there! I'm the <strong>AI representation of Dhanya V. M.</strong>
+                    </p>
+                    <p>
+                      I can tell you all about my programming skills in <strong>Java, Python, & C</strong>, my <strong>Smart IoT Accident Alert System</strong>, my <strong>9.6 CGPA</strong> at Adichunchanagiri Institute of Technology, or how I can contribute to your team.
+                    </p>
+                    <p class="msg-tip">
+                      💡 <em>Click one of the suggested prompts above or type your question below!</em>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Chat Input Form -->
+            <form class="chat-input-form" id="chat-form" onsubmit="handleChatSubmit(event)">
+              <div class="chat-input-container">
+                <input 
+                  type="text" 
+                  id="chat-input" 
+                  class="chat-input-field" 
+                  placeholder="Ask me anything about Dhanya's background, skills, or projects..." 
+                  autocomplete="off"
+                  required
+                />
+                <button type="submit" class="chat-send-button" id="chat-send-btn" aria-label="Send question">
+                  <span>Send</span>
+                  <i class="fa-solid fa-paper-plane"></i>
+                </button>
+              </div>
+              <div class="chat-api-note">
+                <span><i class="fa-solid fa-sparkles"></i> Simulates interactive AI persona responses. Configured with hooks for OpenAI / Gemini API integration.</span>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- 9. CONTACT SECTION PLACEHOLDER                         -->
+    <!-- ====================================================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+          <div class="section-line"></div>
+          <p class="section-desc">Open for software engineering internships, entry-level roles, and project collaborations.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Details Cards -->
+          <div class="contact-info-col">
+            <div class="contact-card">
+              <div class="contact-card-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="contact-card-details">
+                <h4>Email Me</h4>
+                <a href="mailto:dhanyavm249@gmail.com" class="contact-link">dhanyavm249@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="contact-card-details">
+                <h4>Call / WhatsApp</h4>
+                <a href="tel:+918971043968" class="contact-link">+91 8971043968</a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="contact-card-details">
+                <h4>LinkedIn Profile</h4>
+                <a href="https://www.linkedin.com/in/dhanya-v-m-5b4423389" target="_blank" rel="noopener noreferrer" class="contact-link">linkedin.com/in/dhanya-v-m</a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon"><i class="fa-brands fa-github"></i></div>
+              <div class="contact-card-details">
+                <h4>GitHub Repositories</h4>
+                <a href="https://github.com/Dhanyavm" target="_blank" rel="noopener noreferrer" class="contact-link">github.com/Dhanyavm</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-col">
+            <form class="contact-form" id="contact-form" onsubmit="handleFormSubmit(event)">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <div class="input-with-icon">
+                  <i class="fa-solid fa-user input-icon"></i>
+                  <input type="text" id="name" name="name" required placeholder="John Doe" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <div class="input-with-icon">
+                  <i class="fa-solid fa-envelope input-icon"></i>
+                  <input type="email" id="email" name="email" required placeholder="john@example.com" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <div class="input-with-icon">
+                  <i class="fa-solid fa-tag input-icon"></i>
+                  <input type="text" id="subject" name="subject" required placeholder="Internship Opportunity / Inquiry" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <div class="input-with-icon textarea-wrap">
+                  <i class="fa-solid fa-message input-icon textarea-icon"></i>
+                  <textarea id="message" name="message" rows="4" required placeholder="Hello Dhanya, we would love to discuss..."></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="send-message-btn">
+                <span>Send Message</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+              <div class="form-status" id="form-status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================================================== -->
+  <!-- FOOTER PLACEHOLDER                                       -->
+  <!-- ======================================================== -->
+  <footer class="footer" id="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#hero" class="footer-logo">&lt;Dhanya.VM/&gt;</a>
+        <p>Aspiring Software Engineer & Problem Solver. Crafted with passion & modern web standards.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#timeline">Timeline</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#chat-section">AI Chat</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-socials">
+        <h4>Follow</h4>
+        <div class="social-icons-group">
+          <a href="https://github.com/Dhanyavm" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/dhanya-v-m-5b4423389" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:dhanyavm249@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-content">
+        <p>&copy; <span id="current-year">2026</span> Dhanya V. M. All Rights Reserved.</p>
+        <a href="#hero" class="back-to-top" id="back-to-top" aria-label="Back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
